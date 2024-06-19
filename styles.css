@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    max-width: 1200px;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ebebeb;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .opys {
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .product:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .product p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5; /* Improves readability by adding space between lines */
+  }
+  
+  .price {
+    font-weight: bold;
+    margin-bottom: 10px; /* Adds space between price and description */
+  }
+  
+  .product button {
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    padding: 5px 10px; /* Adjust button padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Changes cursor to indicate clickable element */
+    margin: 5px; /* Adds space between buttons and input */
+  }
+  
+  .product button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  #quantity_mini,
+  #quantity_miki,
+  #quantity_mishka,
+  #quantity_cabriol,
+  #quantity_uves {
+    width: 30px; /* Sets width for quantity input fields */
+    text-align: center; /* Centers text within input fields */
+    border: 1px solid #ddd;
+    padding: 5px; /* Adjusts padding for input fields */
+  }
+  
+  .footer {
+    background-color: #ebebeb;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px; /* Adds space between content and footer */
+  }
+  

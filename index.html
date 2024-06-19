@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гіпсові фігури для розмальовування</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Гіпсові фігури для розмальовування</h1>
+</header>
+
+<nav>
+    <a href="#home">Головна</a>
+    <a href="#products">Гіпсові фігури</a>
+    <a href="#grim">Аквагрим</a>
+    <a href="#about">Про нас</a>
+    <a href="#contact">Контакти</a>
+</nav>
+
+<div class="container">
+    <section id="products">
+        <h2 class="opys">Наші продукти</h2>
+        <div class="products">
+            <div class="product">
+                <img src="/img/мини.jpg" alt="Фігура 1">
+                <h3>Міні</h3>
+                <p class="price">250 грн</p>
+                <p>Високоякісна гіпсова фігура для розмальовування.</p>
+                <div>
+                    <button onclick="changeQuantity('mini', -1)">-</button>
+                    <input type="text" id="quantity_mini" value="0">
+                    <button onclick="changeQuantity('mini', 1)">+</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="/img/мики.jpg" alt="Фігура 2">
+                <h3>Мікі</h3>
+                <p class="price">300 грн</p>
+                <p>Чудовий вибір для творчих занять.</p>
+                <div>
+                    <button onclick="changeQuantity('miki', -1)">-</button>
+                    <input type="text" id="quantity_miki" value="0">
+                    <button onclick="changeQuantity('miki', 1)">+</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="/img/4.jpg" alt="Фігура 3">
+                <h3>Новорічна мішка</h3>
+                <p class="price">400 грн</p>
+                <p>Ідеальна фігура для розмальовування та декорування.</p>
+                <div>
+                    <button onclick="changeQuantity('mishka', -1)">-</button>
+                    <input type="text" id="quantity_mishka" value="0">
+                    <button onclick="changeQuantity('mishka', 1)">+</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="/img/3.jpg" alt="Фігура 4">
+                <h3>Кабріолет</h3>
+                <p class="price">400 грн</p>
+                <p>Ідеальна фігура для розмальовування та декорування.</p>
+                <div>
+                    <button onclick="changeQuantity('cabriol', -1)">-</button>
+                    <input type="text" id="quantity_cabriol" value="0">
+                    <button onclick="changeQuantity('cabriol', 1)">+</button>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <section id="grim">
+        <h2 class="opys">Аквагрим</h2>
+        <div class="products">
+            <div class="product">
+                <img src="/img/a.jpg" alt="Фігура 5">
+                <h3>Аквагрим UVEEFUN</h3>
+                <p class="price">400 грн</p>
+                <p>Ідеальна фігура для розмальовування та декорування.</p>
+                <div>
+                    <button onclick="changeQuantity('uves', -1)">-</button>
+                    <input type="text" id="quantity_uves" value="0">
+                    <button onclick="changeQuantity('uves', 1)">+</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>Наш інтернет-магазин пропонує широкий вибір гіпсових фігур для розмальовування та аквагриму. Ми прагнемо надавати тільки найкращі продукти для ваших творчих проектів.</p>
+    </section>
+
+<div class="footer">
+    &copy; 2024 Гіпсові фігури для розмальовування
+</div>
+
+</body>
+</html>
